@@ -38,3 +38,11 @@ azure-lab/
 ├── README.md
 ├── .gitignore
 └── LICENSE
+
+## Example Projects
+
+- Automated Azure Resource Group deployment
+- Azure inventory reporting
+- VM management automation
+- Azure cleanup scripts
+- Infrastructure troubleshooting labs
