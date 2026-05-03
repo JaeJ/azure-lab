@@ -1,2 +1,36 @@
-# azure-lab
-Hands-on Azure administration lab with PowerShell scripts, deployment notes, troubleshooting guides, and cloud infrastructure practice projects.
+# Azure Lab
+
+This repository contains hands-on Azure administration labs, PowerShell scripts, troubleshooting notes, and cloud infrastructure practice projects.
+
+## Purpose
+
+The goal of this lab is to build practical Azure skills for remote cloud support, systems administration, infrastructure engineering, and automation roles.
+
+## Skills Practiced
+
+- Azure Resource Groups
+- Azure PowerShell
+- Azure CLI
+- Virtual Machines
+- Networking
+- Storage Accounts
+- Identity and Access Management
+- Monitoring
+- Cost Management
+- Troubleshooting
+
+## Repo Structure
+
+```text
+azure-lab/
+├── scripts/
+│   ├── create-resource-group.ps1
+│   ├── list-azure-resources.ps1
+│   └── cleanup-resource-group.ps1
+├── docs/
+│   ├── setup-guide.md
+│   └── troubleshooting-notes.md
+├── examples/
+├── README.md
+├── .gitignore
+└── LICENSE
