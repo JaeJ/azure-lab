@@ -1,5 +1,9 @@
 # Azure Lab
 
+![PowerShell](https://img.shields.io/badge/PowerShell-Automation-blue)
+![Azure](https://img.shields.io/badge/Azure-Cloud-blue)
+![Status](https://img.shields.io/badge/Status-Active-success)
+
 This repository contains hands-on Azure administration labs, PowerShell scripts, troubleshooting notes, and cloud infrastructure practice projects.
 
 ## Purpose
