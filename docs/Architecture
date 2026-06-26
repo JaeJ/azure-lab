@@ -2,70 +2,63 @@
 
 ## Overview
 
-This lab demonstrates a repeatable Azure administration workflow using PowerShell to deploy, inventory, and clean up Azure resources.
+This lab demonstrates Azure administration using PowerShell to deploy, inventory, and clean up Azure resources.
 
-## Architecture Diagram
+---
+
+## Architecture
 
 ```text
-+----------------------+
-| Administrator        |
-| (PowerShell 7)       |
-+----------+-----------+
-           |
-           v
-+----------------------+
-| Connect-AzAccount    |
-+----------+-----------+
-           |
-           v
-+----------------------+
-| Azure Subscription   |
-+----------+-----------+
-           |
-           v
-+----------------------+
-| Resource Group       |
-+----------+-----------+
-           |
-           v
-+----------------------+
-| Azure Resources      |
-| - Storage            |
-| - Networking         |
-| - Virtual Machines   |
-+----------+-----------+
-           |
-           v
-+----------------------+
-| Reporting Scripts    |
-+----------+-----------+
-           |
-           v
-+----------------------+
-| Cleanup Script       |
-+----------------------+
+Administrator
+      │
+      ▼
+PowerShell
+      │
+      ▼
+Connect-AzAccount
+      │
+      ▼
+Azure Subscription
+      │
+      ▼
+Resource Group
+      │
+      ▼
+Azure Resources
+      │
+      ▼
+Reporting
+      │
+      ▼
+Cleanup
 ```
+
+---
 
 ## Workflow
 
 1. Authenticate with Azure.
-2. Create or use a Resource Group.
-3. Deploy or inventory Azure resources.
+2. Create a Resource Group.
+3. Deploy Azure resources.
 4. Generate reports.
-5. Remove lab resources after testing.
+5. Remove lab resources.
+
+---
 
 ## Technologies
 
-- Microsoft Azure
-- Azure PowerShell (Az Module)
+- Azure
+- Azure Resource Manager
+- Azure PowerShell
 - PowerShell 7
-- Azure Resource Manager (ARM)
 - GitHub
+
+---
 
 ## Skills Demonstrated
 
 - Cloud Administration
-- PowerShell Automation
-- Infrastructure Documentation
 - Azure Resource Management
-- Operational Best Practices
+- Infrastructure Automation
+- PowerShell
+- Documentation
