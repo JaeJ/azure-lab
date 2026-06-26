@@ -1,48 +1,40 @@
 # Azure Lab
 
-![PowerShell](https://img.shields.io/badge/PowerShell-Automation-blue)
-![Azure](https://img.shields.io/badge/Azure-Cloud-blue)
-![Status](https://img.shields.io/badge/Status-Active-success)
-
-This repository contains hands-on Azure administration labs, PowerShell scripts, troubleshooting notes, and cloud infrastructure practice projects.
-
 ## Purpose
 
-The goal of this lab is to build practical Azure skills for remote cloud support, systems administration, infrastructure engineering, and automation roles.
+This repository documents hands-on Azure administration projects focused on cloud infrastructure, resource management, PowerShell automation, and operational troubleshooting.
 
-## Skills Practiced
+## Business Problem
 
-- Azure Resource Groups
-- Azure PowerShell
-- Azure CLI
-- Virtual Machines
-- Networking
-- Storage Accounts
-- Identity and Access Management
-- Monitoring
-- Cost Management
+IT teams need repeatable methods to create, review, document, and clean up Azure resources. Manual portal-based administration can lead to inconsistent naming, orphaned resources, and higher cloud costs.
+
+## What This Project Demonstrates
+
+- Azure resource group creation
+- Azure resource inventory
+- PowerShell-based cleanup
+- Cloud administration documentation
+- Troubleshooting notes
+- Repeatable infrastructure workflows
+
+## Skills Demonstrated
+
+- Azure Administration
+- PowerShell
+- Cloud Resource Management
+- Infrastructure Documentation
+- Cost Control
 - Troubleshooting
 
-## Repo Structure
+## Repository Structure
 
 ```text
 azure-lab/
+├── docs/
+│   ├── lab-progress.md
+│   └── troubleshooting-notes.md
 ├── scripts/
 │   ├── create-resource-group.ps1
 │   ├── list-azure-resources.ps1
 │   └── cleanup-resource-group.ps1
-├── docs/
-│   ├── setup-guide.md
-│   └── troubleshooting-notes.md
-├── examples/
-├── README.md
-├── .gitignore
-└── LICENSE
-
-## Example Projects
-
-- Automated Azure Resource Group deployment
-- Azure inventory reporting
-- VM management automation
-- Azure cleanup scripts
-- Infrastructure troubleshooting labs
+└── README.md
