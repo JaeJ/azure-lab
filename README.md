@@ -56,18 +56,25 @@ This project demonstrates practical PowerShell automation used to simplify Azure
 ```text
 azure-lab/
 │
-├── docs/
+├── docs
+│   ├── architecture.md
 │   ├── lab-progress.md
 │   └── troubleshooting-notes.md
 │
-├── examples/
+├── examples
 │   └── sample-output.md
 │
-├── scripts/
-│   ├── create-resource-group.ps1
-│   ├── list-azure-resources.ps1
-│   └── cleanup-resource-group.ps1
+├── images
+│   └── README.md
 │
+├── scripts
+│   ├── README.md
+│   ├── cleanup-resource-group.ps1
+│   ├── create-resource-group.ps1
+│   └── list-azure-resources.ps1
+│
+├── .gitignore
+├── LICENSE
 └── README.md
 ```
 
