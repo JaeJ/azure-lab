@@ -1,0 +1,17 @@
+.vscode/
+
+bin/
+
+obj/
+
+*.log
+
+*.tmp
+
+*.cache
+
+*.bak
+
+*.zip
+
+*.7z
