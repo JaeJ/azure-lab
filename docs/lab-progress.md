@@ -1,83 +1,71 @@
 # Azure Lab Progress
 
-## Completed Labs
-
-### Resource Group Deployment
-
-Status: Completed
-
-Tasks:
-- Connected to Azure using PowerShell
-- Created Azure Resource Group
-- Verified deployment success
-
-Scripts Used:
-- create-resource-group.ps1
+This document tracks completed Azure administration work, documentation, testing, and planned improvements.
 
 ---
 
-### Azure Resource Inventory
+## Completed
 
-Status: Completed
+### Repository Foundation
 
-Tasks:
-- Retrieved Azure resources
-- Verified resource visibility
-- Reviewed resource types and locations
+- [x] Created Azure Lab repository
+- [x] Added professional root README
+- [x] Added architecture documentation
+- [x] Added troubleshooting notes
+- [x] Added sample output
+- [x] Added scripts documentation
+- [x] Added `.gitignore`
+- [x] Added MIT license
 
-Scripts Used:
-- list-azure-resources.ps1
+### Resource Management
 
----
+- [x] `create-resource-group.ps1`
+- [x] `list-azure-resources.ps1`
+- [x] `cleanup-resource-group.ps1`
+- [x] `get-azure-resource-inventory.ps1`
 
-### Storage Account Deployment
+### Storage
 
-Status: Completed
+- [x] `create-storage-account.ps1`
+- [x] `new-storage-account.ps1`
 
-Tasks:
-- Created Azure Storage Account
-- Verified deployment configuration
-- Reviewed naming requirements
+### Networking
 
-Scripts Used:
-- create-storage-account.ps1
+- [x] `create-virtual-network.ps1`
+- [x] `new-virtual-network.ps1`
+- [x] `create-network-security-group.ps1`
 
----
+### Compute
 
-### Resource Cleanup
+- [x] `create-virtual-machine.ps1`
 
-Status: Completed
+### Documentation
 
-Tasks:
-- Removed Azure lab resources
-- Verified cleanup process
-- Reviewed deletion confirmation safeguards
-
-Scripts Used:
-- cleanup-resource-group.ps1
-
----
-
-## Skills Practiced
-
-- Azure Administration
-- Azure PowerShell
-- Resource Group Management
-- Storage Account Management
-- Infrastructure Automation
-- Cloud Troubleshooting
-- Azure Resource Inventory
-- Cloud Cleanup Procedures
+- [x] Updated repository structure
+- [x] Updated project script table
+- [x] Updated sample output
+- [x] Updated scripts README
+- [x] Added root changelog
 
 ---
 
-## Planned Future Labs
+## In Progress
 
-- Azure Virtual Machines
-- Azure Networking
-- Network Security Groups
-- Azure Monitoring
-- Azure Backup
-- Virtual Networks
-- Azure Identity Management
-- Log Analytics
+- [ ] Test deployment scripts with `-WhatIf`
+- [ ] Replace sample results with sanitized real output
+- [ ] Review naming consistency between `create-*` and `new-*` scripts
+- [ ] Confirm cleanup procedures after deployment testing
+
+---
+
+## Planned Improvements
+
+- [ ] Azure Key Vault automation
+- [ ] Azure Monitor configuration
+- [ ] Azure Backup configuration
+- [ ] Azure Policy reporting
+- [ ] Microsoft Entra ID reporting
+- [ ] Cost-management reporting
+- [ ] Resource tagging validation
+- [ ] Pester tests
+- [ ] GitHub Actions validation
